@@ -1,0 +1,199 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #f8f8ff;
+  height:100%;
+  width: 100%;
+}
+  
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #06283D;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+  
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+.fa-house{
+  padding-left: 55px;
+  padding-right: 10px;
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+.fa-calendar-days{
+  padding-left: 57px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.fa-star{
+  padding-left: 54px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.sidenav a:hover {
+  color: #818181;
+}
+  
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+span{
+  color: #DFF6FF;
+}
+#main-nav {
+  transition: margin-left .5s;
+  padding: 16px;
+  background-color: #06283D;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.dropbtn {
+  background-color: #06283D;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 103px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #256D85;
+}
+
+div.main-text a{
+  position: relative;
+  top: 30px;
+  left: 8%;
+  text-decoration: none;
+  color: #06283D;
+}
+div.main-text i{
+  position: relative;
+  top: 30px;
+  left: 8%;
+}
+
+h1{
+  font: 20px;
+  position: relative;
+  top: 40px;
+  text-align: center;
+  color: #DFF6FF;
+  background-color: #06283D;
+  width: 25%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+table{
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+  top: 45px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #06283D;
+  padding: 20px;
+  border-radius: 20px;
+  color: #DFF6FF;
+}
+table th{
+  border: #DFF6FF solid 1px;
+  padding: 7px;
+}
+table td{
+  border: #DFF6FF solid 1px;
+  padding: 7px;
+}
+table .noon{
+  padding: 0;
+  border: none;
+  height: 30px;
+}
+table th, table td{
+  border-left: none;
+  border-top: none;
+}
+table th:last-child, table td:last-child{
+  border-right: none;
+}
+table .last{
+  border-bottom: none;
+}
+table th
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday{
+  width: 15%;
+}
+
+table .first{
+  border-top: #DFF6FF solid 1px;
+}
+
+.tod{
+  writing-mode: vertical-lr;
+  font-weight: 500px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
