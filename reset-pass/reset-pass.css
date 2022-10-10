@@ -22,14 +22,6 @@
     align-items: center;
     text-align: center;
   }
-  .login_container_logo{
-    padding: 50px 0;
-    background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    margin: 20px 120px 20px;
-  }
   a{
     text-decoration: none;
   }
@@ -47,7 +39,7 @@
     text-align: center;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 20px;
+    padding: 100px 0 40px;
   }
   .login_container1{
     width: 360px;
@@ -74,7 +66,6 @@
     transition: all 0.3s ease-in-out;
   }
   label{
-    
     position: absolute;
     padding: 0px 5px;
     left: 40px;
@@ -96,7 +87,7 @@
   .btn{
     height: 50px;
     width: 30%;
-    margin: 20px 0 20px;
+    margin: 20px 0 90px;
     border: none;
     border-radius: 10px;
     background: var(--bg2);
@@ -112,26 +103,8 @@
   input.btn:hover{
     opacity: 0.85s;
   }
-  .link{
-    position: Relative;
-    left: 10%;
-    display: flex;
-  }
-  .link a{
-    margin: 0px 0;
-    font-size: 13px;
-    color: #000000;
-  }
-  .login_container a:hover{
-    color: #024ba6;
-  }
-  .link label{
-    position: relative;
-    top: 7px;
-    left: 19.5%;
-    font-size: 13px;
-  }
-  .link #checkbox{
-    position: relative;
-    right:13.5%;
+  p{
+    text-align: left;
+    padding: 10px 0 0 10px;
+    font-size: 14px;
   }

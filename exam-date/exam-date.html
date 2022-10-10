@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="exam-date.css">
+<link rel="stylesheet" href="../fontawesome-free-6.2.0/css/all.css">
+<script src="http://kit.fontawsome.com/a81368914.js"></script>
+<meta charset="UTF-8">
+<title>Exam Schedule</title>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../home/Home.html" id="logo">Logo</a>
+  <a href="../home/Home.html"><i class="fa-solid fa-house"></i></a>
+  <a href="../schedule/schedule.html"><i class="fa-solid fa-calendar-days"></i></a>
+  <a href="examd-ate.html"><i class="fa-solid fa-star"></i></a>
+</div>
+
+<div id="main-nav">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div class="dropdown">
+      <button class="dropbtn">Your Name</button>
+      <div class="dropdown-content">
+        <a href="../sign in/signin.html">Log Out</a>
+      </div>
+    </div>
+    
+  </div>
+
+<div id="main-container">
+    <div class="main">
+        <div class="main-text">
+            <a href="../home/Home.html">Home</a>
+            <i class="fa-duotone fa-greater-than"></i>
+            <a href="exam-date.html">Exam Date</a>
+        </div>
+        <div class="main-table">
+            <h1>List of final exam</h1>
+            <div class="m-table">
+                <table cellspacing="0">
+                    <tr>
+                        <th rowspan="2" id="tt">Order</th>
+                        <th rowspan="2" id="subj">Subject</th>
+                        <th rowspan="2" id="clsr">Place</th>
+                        <th rowspan="2" id="proctor">Proctor</th>
+                        <th rowspan="2" id="form">Form</th>
+                        <th rowspan="2" id="date">Date</th>
+                        <th colspan="2" id="time">Time</th>
+                    </tr>
+                    <tr>
+                        <th class="thead">Start</td>
+                        <th class="thead">End</td>
+                    </tr>
+                    <tr>
+                        <td class="first">1</td>
+                        <td class="first subject">Math</td>
+                        <td class="first">102 - A</td>
+                        <td class="first">Nguyen Van A</td>
+                        <td class="first">multiple-choice</td>
+                        <td class="first">01/02/2020</td>
+                        <td class="first">7:30</td>
+                        <td class="first">9:00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="subject">Literature</td>
+                        <td>102 - A</td>
+                        <td>Tran Manh B</td>
+                        <td>essay</td>
+                        <td>01/02/2020</td>
+                        <td>9:30</td>
+                        <td>11:00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="subject">English</td>
+                        <td>302 - B</td>
+                        <td>Le Thi H</td>
+                        <td>multiple-choice</td>
+                        <td>02/02/2020</td>
+                        <td>1:30</td>
+                        <td>3:00</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+  
+</div>
+<script src="exam-date.js"></script>
+   
+</body>
+</html> 

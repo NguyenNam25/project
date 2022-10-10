@@ -1,14 +1,9 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: "Lato", sans-serif;
   margin: 0;
-  background-color: #ffffff;
-  height: 100vh;
-  width: 100vw;
+  background-color: #f8f8ff;
+  height:100%;
+  width: 100%;
 }
 :root{
   --bg1: #1D81EE;
@@ -59,7 +54,6 @@ body {
 .sidenav #logo{
   text-align: center;
 }
-  
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -83,6 +77,88 @@ span{
   .sidenav a {font-size: 18px;}
 }
 
+#main-container{
+  transition: margin-left .5s;
+}
+h1{
+  width: 75%;
+  position: relative;
+  font-size: 40px;
+  margin: 50px auto 20px;
+  top: 20px;
+}
+table{
+  width: 75%;
+  height: 173px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+table th{
+  border: #fff solid;
+  border-width: .5px;
+  background: var(--bg1);
+  color: #fff;
+  border-right: none;
+}
+table th.order{
+  width: 10%;
+}
+table .time{
+  border-top: none;
+}
+table th:last-child{
+  border-right: #fff solid 1px;
+  border-width: .5px;
+}
+table td{
+  border-bottom: var(--bg2) solid 1px; 
+  border-left: var(--bg2) solid 1px; 
+  border-width: .5px;
+  background-color: #fff;
+  font-weight: bolder;
+}
+table td.firstline{
+  border-top: var(--bg2) solid 1px;
+}
+table td:last-child{
+  border-right: var(--bg2) solid 1px;
+  border-width: .5px;
+  background-color: #fff;
+}
+.mor{
+  margin-top: 1rem;
+}
+.aft-n{
+  margin-top: 1rem;
+  
+}
+.aft-n p{
+  font-size: 1.5rem;
+  width: 217px;
+  position: relative;
+  left: 165px;
+} 
+h2{
+  width: 150px;
+  left: 150px;
+  top: 20px;
+  font-size: 25px;
+  margin: 5px 0;
+  position: relative;
+  padding: 10px 0;
+}
+
+.dropbtn {
+  background-color: #06283D;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 .dropbtn {
   background: none;
   color: white;
@@ -116,91 +192,3 @@ span{
 .dropdown:hover .dropbtn {
   background-color: var(--bg1);
 }
-
-#main-container{
-  transition: margin-left .5s;
-}
-
-div.main-text a{
-  position: relative;
-  top: 15px;
-  left: 4%;
-  text-decoration: none;
-  color: #000000;
-  font-size: 18px;
-  font-weight: bolder;
-}
-div.main-text i{
-  position: relative;
-  top: 15px;
-  left: 4%;
-  font-weight: bolder;
-}
-
-h1{
-  font-size: 40px;
-  position: relative;
-  top: 15px;
-  text-align: center;
-  color: #000000;
-  width: 338px;
-  margin: 0 auto;
-  padding: 5px;
-  border-radius: 5px;
-  text-transform: uppercase;  
-}
-
-table{
-  margin: 0 auto;
-  width: 978px;
-  height: 445px;
-  position: relative;
-  margin-top: 20px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
-  padding: 20px;
-  border-radius: 10px;
-  color: #000000;
-}
-table th{
-  border: #000000 solid 1px;
-  padding: 7px;
-}
-table td{
-  border: #000000 solid 1px;
-  padding: 7px;
-}
-table .noon{
-  padding: 0;
-  border: none;
-  height: 30px;
-}
-table th, table td{
-  border-left: none;
-  border-top: none;
-}
-table th:last-child, table td:last-child{
-  border-right: none;
-}
-table .last{
-  border-bottom: none;
-}
-table th
-.monday, .tuesday, .wednesday, .thursday, .friday, .saturday{
-  width: 15%;
-}
-
-table .first{
-  border-top: #000000 solid 1px;
-}
-
-.tod{
-  writing-mode: vertical-lr;
-  font-weight: 500px;
-  font-size: 20px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-

@@ -6,14 +6,16 @@
 <link rel="stylesheet" href="../fontawesome-free-6.2.0/css/all.css">
 <script src="http://kit.fontawsome.com/a81368914.js"></script>
 <meta charset="UTF-8">
+<title>Schedule</title>
 </head>
 <body>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="../project/Home.html"><i class="fa-solid fa-house"></i></a>
+  <a href="../home/Home.html" id="logo">Logo</a>
+  <a href="../home/Home.html"><i class="fa-solid fa-house"></i></a>
   <a href="schedule.html"><i class="fa-solid fa-calendar-days"></i></a>
-  <a href="../exam-date/examdate.html"><i class="fa-solid fa-star"></i></a>
+  <a href="../exam-date/exam-date.html"><i class="fa-solid fa-star"></i></a>
 </div>
 
 <div id="main-nav">
@@ -29,118 +31,120 @@
 <div id="main-container">
     <div class="main">
         <div class="main-text">
-            <a href="../project/Home.html">Home</a>
+            <a href="../home/Home.html">Home</a>
             <i class="fa-duotone fa-greater-than"></i>
             <a href="schedule.html">Schedule</a>
         </div>
         <div class="main-table">
             <h1>Schedule</h1>
-            <table cellspacing="0">
-                <tr>
-                    <th colspan="2"></th>
-                    <th class="monday">Monday</th>
-                    <th class="tuesday">Tuesday</th>
-                    <th class="wednesday">Wednesday</th>
-                    <th class="thursday">Thursday</th>
-                    <th class="friday">Friday</th>
-                    <th class="saturday">Saturday</th>
-                </tr>
-                <tr>
-                    <td rowspan="5" class="tod">Morning</td>
-                    <td>1</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr class="noon">
-                    <th colspan="7" class="noon"></th>
-                </tr>
-                <tr>
-                    <td rowspan="5" class="tod first last">Afternoon</td>
-                    <td class="first">1</td>
-                    <td class="monday first"></td>
-                    <td class="tuesday first"></td>
-                    <td class="wednesday first"></td>
-                    <td class="thursday first"></td>
-                    <td class="friday first"></td>
-                    <td class="saturday first"></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td class="monday"></td>
-                    <td class="tuesday"></td>
-                    <td class="wednesday"></td>
-                    <td class="thursday"></td>
-                    <td class="friday"></td>
-                    <td class="saturday"></td>
-                </tr>
-                <tr>
-                    <td class="last">5</td>
-                    <td class="monday last"></td>
-                    <td class="tuesday last"></td>
-                    <td class="wednesday last"></td>
-                    <td class="thursday last"></td>
-                    <td class="friday last"></td>
-                    <td class="saturday last"></td>
-                </tr>
-            </table>
+            <div style="overflow-x:auto;">
+                <table cellspacing="0">
+                    <tr>
+                        <th colspan="2"></th>
+                        <th class="monday">Monday</th>
+                        <th class="tuesday">Tuesday</th>
+                        <th class="wednesday">Wednesday</th>
+                        <th class="thursday">Thursday</th>
+                        <th class="friday">Friday</th>
+                        <th class="saturday">Saturday</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5" class="tod">Morning</td>
+                        <td>1</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr class="noon">
+                        <th colspan="7" class="noon"></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5" class="tod first last">Afternoon</td>
+                        <td class="first">1</td>
+                        <td class="monday first"></td>
+                        <td class="tuesday first"></td>
+                        <td class="wednesday first"></td>
+                        <td class="thursday first"></td>
+                        <td class="friday first"></td>
+                        <td class="saturday first"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="monday"></td>
+                        <td class="tuesday"></td>
+                        <td class="wednesday"></td>
+                        <td class="thursday"></td>
+                        <td class="friday"></td>
+                        <td class="saturday"></td>
+                    </tr>
+                    <tr>
+                        <td class="last">5</td>
+                        <td class="monday last"></td>
+                        <td class="tuesday last"></td>
+                        <td class="wednesday last"></td>
+                        <td class="thursday last"></td>
+                        <td class="friday last"></td>
+                        <td class="saturday last"></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </div>
