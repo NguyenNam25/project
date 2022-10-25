@@ -76,7 +76,10 @@ span{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
+img{
+  width: 50%;
+  border-radius: 50%;
+}
 #main-container{
   transition: margin-left .5s;
 }

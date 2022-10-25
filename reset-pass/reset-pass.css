@@ -35,11 +35,16 @@
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  .login_container_logo img{
+    margin: 20px 0;
+    width: 35%;
+    border-radius: 50%;
+  }
   h3{
     text-align: center;
     font-size: 24px;
     font-weight: 500;
-    padding: 100px 0 40px;
+    padding: 0 0 25px;
   }
   .login_container1{
     width: 360px;
@@ -87,7 +92,7 @@
   .btn{
     height: 50px;
     width: 30%;
-    margin: 20px 0 90px;
+    margin: 15px 0 50px;
     border: none;
     border-radius: 10px;
     background: var(--bg2);

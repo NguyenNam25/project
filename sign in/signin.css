@@ -22,13 +22,11 @@
     align-items: center;
     text-align: center;
   }
-  .login_container_logo{
-    padding: 50px 0;
-    background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
+  
+  .login_container_logo img{
+    margin: 20px 0;
+    width: 35%;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    margin: 20px 120px 20px;
   }
   a{
     text-decoration: none;
